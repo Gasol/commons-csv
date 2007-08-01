@@ -14,7 +14,7 @@ Architecture: all
 Depends: java-gcj-compat | java1-runtime | java2-runtime
 Suggests: java-virtual-machine
 Description: a Java library for working with csv (comma separated values) files
- libcommons-csv-java is the Jakarta Commons library for working with csv (comma
+ libcommons-csv-java is the Apache Commons library for working with csv (comma
  separated value) files.
  .
   Homepage: http://jakarta.apache.org/commons/sandbox/csv/
@@ -23,7 +23,7 @@ Package: libcommons-csv-java-doc
 Architecture: all
 Section: doc
 Description: documentation for libcommons-csv-java
- libcommons-csv-java is the Jakarta Commons library for working with csv (comma
+ libcommons-csv-java is the Apache Commons library for working with csv (comma
  separated value) files.
  .
  This package contains the API documentation for the Commons CSV library

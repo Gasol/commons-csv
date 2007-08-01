@@ -2,7 +2,7 @@ This package was debianized by Jan-Pascal van Best <janpascal@vanbest.org> on
 Tue, 19 Jun 2007 14:24:31 +0200
 
 It was downloaded using subversion from the Subversion repository at
-http://svn.apache.org/repos/asf/jakarta/commons/sandbox/csv/trunk/
+http://svn.apache.org/repos/asf/commons/sandbox/csv/trunk/
 
 Use 
   debian/rules get-orig-source 

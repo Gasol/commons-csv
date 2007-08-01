@@ -4,7 +4,7 @@
 # revision of commons-cvs in the Apache subversion repository.
 
 REVISION=`dpkg-parsechangelog | grep "^Version:" | grep -o "+svn[0-9]\+" | grep -o "[0-9]\+"`
-BASEURL="http://svn.apache.org/repos/asf/jakarta/commons/sandbox/csv/trunk/"
+BASEURL="http://svn.apache.org/repos/asf/commons/sandbox/csv/trunk/"
 LATEST_UPSTREAM_REVISION=`svn info -R $BASEURL | grep -i "last changed rev:" | grep -o "[0-9]\+" | sort -n | tail -n 1`
 
 if [ "$REVISION" != "$LATEST_UPSTREAM_REVISION" ]; then

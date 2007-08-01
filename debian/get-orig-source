@@ -4,7 +4,7 @@
 # subversion repository and builds the .orig.tar.gz file.
 
 REVISION=`dpkg-parsechangelog | grep "^Version:" | grep -o "+svn[0-9]\+" | grep -o "[0-9]\+"`
-BASEURL="http://svn.apache.org/repos/asf/jakarta/commons/sandbox/csv/trunk/"
+BASEURL="http://svn.apache.org/repos/asf/commons/sandbox/csv/trunk/"
 
 TEMPDIR=`mktemp -d`
 DESTDIR=$PWD/..
