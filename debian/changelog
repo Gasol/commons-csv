@@ -1,0 +1,5 @@
+commons-csv (0.1-SNAPSHOT+svn558885-1) unstable; urgency=low
+
+  * Initial release, based on subversion revision 558885 (2007-07-25) (Closes: #429779)
+
+ -- Jan-Pascal van Best <janpascal@vanbest.org>  Fri, 27 Jul 2007 09:45:30 +0200

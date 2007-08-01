@@ -1,0 +1,28 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 20_dont-download-external-jars.dpatch by Jan-Pascal van Best <janpascal@vanbest.org>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+diff -urNad trunk~/build.xml trunk/build.xml
+--- trunk~/build.xml	2007-06-19 10:23:25.000000000 +0200
++++ trunk/build.xml	2007-06-21 10:25:00.000000000 +0200
+@@ -40,7 +40,7 @@
+     <available property="Junit.present" classname="junit.framework.Test">
+     </available>
+   </target>
+-  <target name="compile" description="o Compile the code" depends="get-deps">
++  <target name="compile" description="o Compile the code">
+     <mkdir dir="${classesdir}">
+     </mkdir>
+     <javac destdir="${classesdir}" deprecation="true" debug="true" optimize="false" excludes="**/package.html">
+@@ -131,7 +131,7 @@
+       </classpath>
+     </javac>
+   </target>
+-  <target name="javadoc" description="o Generate javadoc" depends="get-deps">
++  <target name="javadoc" description="o Generate javadoc">
+     <mkdir dir="${javadocdir}">
+     </mkdir>
+     <tstamp>
