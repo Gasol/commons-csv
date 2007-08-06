@@ -2,8 +2,7 @@
 ## 10_remove_all_jarfiles.dpatch -- Jan-Pascal van Best <janpascal@vanbest.org>
 ##
 ## DP: We want to be use we do not build using jar files contained
-## DP: in the Lucene distribution tarball, so we start by removing
-## DP: all jar files.
+## DP: in the source tarball, so we start by removing all jar files.
 
 OPERATION="$1"
 DIRECTORY="$2"

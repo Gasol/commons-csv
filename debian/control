@@ -3,8 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Jan-Pascal van Best <janpascal@vanbest.org>
-XS-Vcs-Browser: http://www.vanbest.org/websvn/commons-svn
-XS-Vcs-svn: http://svn.vanbest.org/svn/commons-svn
+XS-Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/commons-csv
+XS-Vcs-svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
 Build-Depends: debhelper (>= 5.0.0), cdbs (>=0.4.48), dpatch (>= 2.0),
  java-gcj-compat-dev, ant-optional (>= 1.6.5), junit (>= 3.8.1)
 Standards-Version: 3.7.2
