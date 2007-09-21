@@ -1,3 +1,11 @@
+commons-csv (0.1-SNAPSHOT+svn561364-2) UNRELEASED; urgency=low
+
+  * debian/control
+    + Add Homepage field.
+    + Add XS-Vcs Svn and XS-Vcs-Browser.
+  
+ -- Kumar Appaiah <akumar@ee.iitm.ac.in>  Fri, 21 Sep 2007 07:06:33 +0530
+
 commons-csv (0.1-SNAPSHOT+svn561364-1) unstable; urgency=low
 
   * New upstream revision, the only change is that Commons is now a top-level

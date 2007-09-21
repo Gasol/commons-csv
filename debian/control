@@ -8,6 +8,9 @@ XS-Vcs-svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
 Build-Depends: debhelper (>= 5.0.0), cdbs (>=0.4.48), dpatch (>= 2.0),
  java-gcj-compat-dev, ant-optional (>= 1.6.5), junit (>= 3.8.1)
 Standards-Version: 3.7.2
+XS-Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
+XS-Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/commons-csv
+Homepage: http://jakarta.apache.org/commons/sandbox/csv/
 
 Package: libcommons-csv-java
 Architecture: all
@@ -16,8 +19,6 @@ Suggests: java-virtual-machine
 Description: a Java library for working with csv (comma separated values) files
  libcommons-csv-java is the Apache Commons library for working with csv (comma
  separated value) files.
- .
-  Homepage: http://jakarta.apache.org/commons/sandbox/csv/
 
 Package: libcommons-csv-java-doc
 Architecture: all
@@ -27,5 +28,3 @@ Description: documentation for libcommons-csv-java
  separated value) files.
  .
  This package contains the API documentation for the Commons CSV library
- .
-  Homepage: http://jakarta.apache.org/commons/sandbox/csv/
