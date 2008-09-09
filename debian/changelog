@@ -1,4 +1,4 @@
-commons-csv (0.1-SNAPSHOT+svn678580-1) UNRELEASED; urgency=low
+commons-csv (0.1-SNAPSHOT+svn678580-1) unstable; urgency=low
 
   [ Kumar Appaiah ]
   * debian/control
