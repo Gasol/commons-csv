@@ -1,9 +1,8 @@
 commons-csv (0.1-SNAPSHOT+svn678580-1) unstable; urgency=low
 
   [ Kumar Appaiah ]
-  * debian/control
-    + Add Homepage field to debian/control.
-    + Add Vcs-Svn and Vcs-Browser to debian/control.
+  * Add Homepage field to debian/control.
+  * Add Vcs-Svn and Vcs-Browser to debian/control.
 
   [ Jan-Pascal van Best ]
   * New upstream revision
