@@ -30,7 +30,7 @@ install/libcommons-csv-java-doc::
 	cp -r dist/docs/api $(CURDIR)/debian/libcommons-csv-java-doc/usr/share/doc/libcommons-csv-java-doc/
 
 remove-source:
-	rm -f build.xml checkstyle.xml LICENSE.txt maven.xml NOTICE.txt pom.xml
+	rm -f checkstyle.xml LICENSE.txt maven.xml NOTICE.txt pom.xml
 	rm -f project.properties project.xml
 	rm -rf debian/patched
 	rm -rf src target dist

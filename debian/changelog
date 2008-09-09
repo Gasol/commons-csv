@@ -1,15 +1,19 @@
-commons-csv (0.1-SNAPSHOT+svn561364-1) UNRELEASED; urgency=low
+commons-csv (0.1-SNAPSHOT+svn678580-1) UNRELEASED; urgency=low
 
   [ Kumar Appaiah ]
   * debian/control
-    + Add Homepage field.
-    + Add XS-Vcs Svn and XS-Vcs-Browser.
-  
-  [ Jan-Pascal van Best ]
-  * New upstream revision, the only change is that Commons is now a top-level
-    Apache project
+    + Add Homepage field to debian/control.
+    + Add Vcs-Svn and Vcs-Browser to debian/control.
 
- -- Jan-Pascal van Best <janpascal@vanbest.org>  Wed, 01 Aug 2007 08:02:45 +0200
+  [ Jan-Pascal van Best ]
+  * New upstream revision
+  * Bump standards-version to 3.8.0
+  * Added build.xml for building, since commons-csv now uses a Maven-based 
+    build system.
+  * Remove full Apache license from debian/copyright and referred to 
+    /usr/share/common-licenses instead.
+
+ -- Jan-Pascal van Best <janpascal@vanbest.org>  Tue, 09 Sep 2008 12:08:21 +0200
 
 commons-csv (0.1-SNAPSHOT+svn558885-1) unstable; urgency=low
 
