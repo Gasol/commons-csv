@@ -8,8 +8,8 @@ include /usr/share/cdbs/1/class/ant.mk
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-# Use gcj
-JAVA_HOME = /usr/lib/jvm/java-gcj
+# Use OpenJDK
+JAVA_HOME = /usr/lib/jvm/java-6-openjdk
 
 DEB_ANT_BUILD_TARGET = init compile jar javadoc
 
