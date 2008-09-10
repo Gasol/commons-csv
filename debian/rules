@@ -12,6 +12,7 @@ include /usr/share/cdbs/1/class/ant.mk
 JAVA_HOME = /usr/lib/jvm/java-6-openjdk
 
 DEB_ANT_BUILD_TARGET = init compile jar javadoc
+DEB_ANT_BUILDFILE = debian/build.xml
 
 # Needed for running the unit tests
 DEB_JARS = ant-junit junit
@@ -43,4 +44,4 @@ get-orig-source:
 	debian/get-orig-source
 
 upload:
-	cd .. ; dupload -t mentors commons-csv_$(DEB_VERSION)_$(DEB_HOST_ARCH).changes
+	cd .. ; dupload -t vanbest commons-csv_$(DEB_VERSION)_$(DEB_HOST_ARCH).changes
