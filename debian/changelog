@@ -13,7 +13,6 @@ commons-csv (0.1-SNAPSHOT+svn678580-1) unstable; urgency=low
     /usr/share/common-licenses instead.
   * Added DM-Upload-Allowed: yes to debian/control.
   * Compile with OpenJDK (instead of gcj).
-  * Mo
 
  -- Jan-Pascal van Best <janpascal@vanbest.org>  Wed, 10 Sep 2008 20:58:00 +0200
 
