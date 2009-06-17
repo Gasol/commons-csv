@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 5.0.0), cdbs (>=0.4.48), dpatch (>= 2.0),
 Standards-Version: 3.8.0
 Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/commons-csv
-Homepage: http://jakarta.apache.org/commons/sandbox/csv/
+Homepage: http://commons.apache.org/sandbox/csv/
 
 Package: libcommons-csv-java
 Architecture: all
