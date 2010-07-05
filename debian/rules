@@ -9,7 +9,7 @@ include /usr/share/cdbs/1/class/ant.mk
 #export DH_VERBOSE=1
 
 # Use OpenJDK
-JAVA_HOME = /usr/lib/jvm/java-6-openjdk
+JAVA_HOME = /usr/lib/jvm/default-java
 
 DEB_ANT_BUILD_TARGET = init compile jar javadoc
 DEB_ANT_BUILDFILE = debian/build.xml

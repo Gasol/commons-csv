@@ -10,7 +10,11 @@ commons-csv (0.1-SNAPSHOT+svn678580-2) UNRELEASED; urgency=low
   * Added myself to Uploaders.
   * Updated Standards-Version to 3.8.3.
 
- -- Michael Koch <konqueror@gmx.de>  Wed, 04 Nov 2009 23:14:19 +0100
+  [ Thierry Carrez ]
+  * debian/control: Fully depend on -headless runtimes
+  * debian/rules, debian/control: Switch to default-jdk
+
+ -- Thierry Carrez <thierry.carrez@ubuntu.com>  Mon, 05 Jul 2010 16:03:50 +0200
 
 commons-csv (0.1-SNAPSHOT+svn678580-1) unstable; urgency=low
 
