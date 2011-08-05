@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Jan-Pascal van Best <janpascal@vanbest.org>, Michael Koch <konqueror@gmx.de>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 7), cdbs (>=0.4.48), dpatch (>= 2.0),
- default-jdk, ant-optional (>= 1.6.5), junit (>= 3.8.1)
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.48), default-jdk,
+ ant-optional (>= 1.6.5), junit (>= 3.8.1)
 Standards-Version: 3.8.3
 Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/commons-csv
@@ -13,13 +13,14 @@ Homepage: http://commons.apache.org/sandbox/csv/
 
 Package: libcommons-csv-java
 Architecture: all
-Depends: default-jre-headless | java2-runtime-headless
+Depends: ${misc:Depends}
 Description: a Java library for working with csv (comma separated values) files
  libcommons-csv-java is the Apache Commons library for working with csv (comma
  separated value) files.
 
 Package: libcommons-csv-java-doc
 Architecture: all
+Depends: ${misc:Depends}
 Section: doc
 Description: documentation for libcommons-csv-java
  libcommons-csv-java is the Apache Commons library for working with csv (comma
