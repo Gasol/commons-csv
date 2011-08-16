@@ -2,7 +2,7 @@ Source: commons-csv
 Section: java
 Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Uploaders: Jan-Pascal van Best <janpascal@vanbest.org>, Michael Koch <konqueror@gmx.de>
+Uploaders: Michael Koch <konqueror@gmx.de>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 7), cdbs (>=0.4.48), default-jdk,
  ant-optional (>= 1.6.5), junit (>= 3.8.1)

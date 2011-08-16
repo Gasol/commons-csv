@@ -41,6 +41,3 @@ restore-from-source: remove-source
 
 get-orig-source:
 	debian/get-orig-source
-
-upload:
-	cd .. ; dupload -t vanbest commons-csv_$(DEB_VERSION)_$(DEB_HOST_ARCH).changes
