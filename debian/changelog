@@ -1,8 +1,20 @@
 commons-csv (0.1-SNAPSHOT+svn678580-3) UNRELEASED; urgency=low
 
+  [ Miguel Landaeta ]
+  * Team upload.
+  * Bump Standards-Version to 3.9.2. No changes were required.
+  * Switch to source format 3.0 (quilt).
+
+  [ James Page ]
+  * Fix FTBFS with OpenJDK7 (LP: #888929) (Closes: #651401): 
+    - d/ant.properties: Specify source/target as 1.5 for javac and
+      javadoc ant tasks to ensure backwards compatibility and work
+      around Java 7 encoding errors.
+
+  [ Jan-Pascal van Best ]
   * Removed Jan-Pascal from Uploaders
 
- -- Jan-Pascal van Best <janpascal@vanbest.org>  Tue, 16 Aug 2011 17:56:13 +0200
+ -- Miguel Landaeta <miguel@miguel.cc>  Fri, 09 Dec 2011 21:42:38 -0430
 
 commons-csv (0.1-SNAPSHOT+svn678580-2) unstable; urgency=low
 

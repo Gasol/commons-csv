@@ -6,7 +6,7 @@ Uploaders: Michael Koch <konqueror@gmx.de>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 7), cdbs (>=0.4.48), default-jdk,
  ant-optional (>= 1.6.5), junit (>= 3.8.1)
-Standards-Version: 3.8.3
+Standards-Version: 3.9.2
 Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/commons-csv
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/commons-csv
 Homepage: http://commons.apache.org/sandbox/csv/
